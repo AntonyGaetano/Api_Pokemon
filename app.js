@@ -1,7 +1,10 @@
 
+const API = () =>{
+    
+var pokemon = document.getElementById("pokemon").value
 
+var url = `https://pokeapi.co/api/v2/pokemon/${pokemon}/`
 
-var url = "https://pokeapi.co/api/v2/pokemon/pikachu/"
 fetch(url)
 .then(response => response.json())
 .then(data=>{
@@ -9,5 +12,10 @@ fetch(url)
     //document.write("<br>")
     //document.write(data.order)
     //document.write(`<img src='${data.sprites.front_default}'/>`)
+    document.getElementById("img").innerHTML = `<img src='${data.sprites.front_default}'/>`;
     console.log(data)
 }) 
+}
+
+document.getElementsByTagName("button")[0].addEventListener("click",API);
+

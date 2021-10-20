@@ -43,6 +43,15 @@ main{
     height: 180px;
     border-radius: 50%;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+#img > img{
+  width: 160px;
 }
 
 .nome-ordem > p{
@@ -56,6 +65,7 @@ main{
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
+    flex-wrap: wrap;
 }
 
 .inputbox {
@@ -63,7 +73,7 @@ main{
     display: flex;
     flex-direction: column-reverse;
     height: 40px;
-    width: 200px;
+    width: 330px;
 }
 
 .inputbox label {
