@@ -13,9 +13,11 @@ fetch(url)
     //document.write(data.order)
     //document.write(`<img src='${data.sprites.front_default}'/>`)
     document.getElementById("img").innerHTML = `<img src='${data.sprites.front_default}'/>`;
+    document.getElementById("nome").innerHTML = `${data.name}`
     console.log(data)
 }) 
 }
 
 document.getElementsByTagName("button")[0].addEventListener("click",API);
+
 
