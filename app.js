@@ -21,4 +21,12 @@ fetch(url)
 
 document.getElementsByTagName("button")[0].addEventListener("click",API);
 
+document.getElementById("pokemon").addEventListener('keypress', 
+function(event) {
+    key = event.keyCode
+    if (key === 13) {
+       API();
+    }
+})
+
 

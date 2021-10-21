@@ -139,6 +139,7 @@ button:hover{
     background-color: white;
     color:black;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 #searchbox{
@@ -168,4 +169,49 @@ button:hover{
 
 #list li.hide{
     display: none;
+}
+
+@media screen and (max-width:593px){
+    main{
+      width: 370px;
+    }
+
+    button{
+        margin: 0.54rem 0;
+    }
+}
+
+@media screen and (max-width:406px){
+    main{
+      width: 330px;
+    }
+
+    .input-button{
+        width: 90%;
+    }
+
+    .inputbox label {
+        position: relative;
+        top:0;
+        left:3px;
+    }
+   
+}
+
+@media screen and (max-width:336px){
+    main{
+      width: 300px;
+    }
+
+    .input-button{
+        width: 90%;
+    }
+
+    .inputbox label {
+        position: relative;
+        top:0;
+        left:3px;
+        font-size: 18px;
+    }
+   
 }
