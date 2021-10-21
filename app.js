@@ -12,8 +12,9 @@ fetch(url)
     //document.write("<br>")
     //document.write(data.order)
     //document.write(`<img src='${data.sprites.front_default}'/>`)
-    document.getElementById("img").innerHTML = `<img src='${data.sprites.front_default}'/>`;
-    document.getElementById("nome").innerHTML = `${data.name}`
+    document.getElementById("img-pokemon").src=data.sprites.front_default
+
+    document.getElementById("nome").innerHTML = `${data.name.toUpperCase()}`
     console.log(data)
 }) 
 }

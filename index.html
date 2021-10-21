@@ -11,26 +11,33 @@
 <body>
     
      <section class="container">
-         <h3>Api Pokemon</h3>
-         <main>
+   
+     <main>          
+           <div id="box-img">
+              <img src="img/pokemon_logo.png" alt="">
+           </div>
             <div class="img-info">
-               <div id="img">  
+               <div id="img"> 
+                  <img src="/img/img_inicial.jpeg" alt="" id="img-pokemon">
                </div>
 
                <div class="nome-ordem">
-                   <p id="nome">Digite algo..</p>
+                   <p id="nome">Digite algo...</p>
                </div>
             </div>
 
-           <div class="input-button">
+            <div class="input-button">
                <div class="inputbox">
                   <input type="text" id="pokemon"  required>
                   <label for="pokemon">Digite o nome ou número de 1 a 898</label>
                </div>
-               <button>Buscar</button>
-           </div>
+                <button class="btn btn-outline-warning text-dark" type="button"  >
+                <i class="fas fa-search"></i>
+              </button>
+             </div>
         </main>
      </section>
 
+     <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
 </body>
 </html>

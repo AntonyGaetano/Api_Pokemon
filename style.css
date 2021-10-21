@@ -13,15 +13,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(fundobody/3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 }
 
-.container > h3{
-    font-size: 30px;
-    margin-bottom: 1rem;
+#box-img{
+  margin-top:1.6rem;
+}
+
+ #box-img > img{
+    width: 200px;
+    filter: drop-shadow(2px 4px 6px black);
+    transition: 2s;
 }
 
 main{
@@ -29,18 +31,19 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:1rem;
+    width:470px;
     background-color: rgb(15, 177, 218);
+    box-shadow: 0 0 17px rgb(0, 0, 0);
+    border-radius: 10px;
 }
 
 .img-info{
-  
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap:4rem;
-    padding: 1rem 4rem;
+    padding: 0rem 2rem;
 }
 
 #img{
@@ -49,17 +52,13 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img//blob.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     overflow: hidden;
-    filter: drop-shadow(2px 2px 6px black);
-  
+    filter: drop-shadow(0px 0px 6px black);
 }
 
 #img > img{
-  width: 140px;
+  width: 180px;
+  height: 180px;
   transition: 2s;
 }
 
@@ -74,6 +73,7 @@ main{
 .input-button{
     display: flex;
     width: 100%;
+    margin: auto;
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
@@ -93,7 +93,7 @@ main{
     top:0;
     left: 10px;
     font-size: 20px;
-    color: var(white);
+    color: black;
     transition: .5s;
     cursor: text;
 }
@@ -112,6 +112,7 @@ main{
     font-size: 20px;
     font-weight: bold;
     padding: 0 10px;
+    margin-top: 0.8rem;
 }
 
 .inputbox input:focus,
