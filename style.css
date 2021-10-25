@@ -57,9 +57,8 @@ main{
 }
 
 #img > img{
-  width: 180px;
-  height: 180px;
-  transition: 2s;
+  width: 130px;
+  height: 130px;
 }
 
 .nome-ordem > p{
