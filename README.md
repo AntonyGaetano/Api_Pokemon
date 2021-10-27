@@ -11,7 +11,7 @@
 <img src="gif/api_pokemon_telanot.gif">
 
 
-### Loyout para celulares e tablets
+### Layout para celulares e tablets
 <img src="gif//api_pokemon_telacll.gif">
 
 🚀Tecnologias usadas:
